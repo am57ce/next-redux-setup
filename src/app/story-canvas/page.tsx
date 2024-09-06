@@ -22,6 +22,13 @@ const Page = () => {
     dispatch(setBlanksReducer(blankValue))
     setBlankValue("");
     setBlankIndex(blankIndex+1)
+  }
+
+  const manageKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+    if (event.key === "Enter") {
+    dispatch(setBlanksReducer(blankValue))
+    setBlankValue("");
+    setBlankIndex(blankIndex+1)}
 
   }
 
@@ -36,10 +43,11 @@ const Page = () => {
     <div className='flex flex-col gap-6 my-3 items-center justify-center'>
     <StorySelector/>
     <h1 className='text-4xl font-black'>{selectedStory?.title}</h1>
-    {selectedStory.blanks[blankIndex] && <p>Name a <input value={blankValue} onChange={(event)=>manageInput(event)} type="text" placeholder={selectedStory.blanks[blankIndex]} aria-label={selectedStory.blanks[blankIndex]} className={`border bg-transparent underline focus:outline-none`}/></p>}
+    <input className='w-80' type="range" min={0} max={selectedStory.blanks.length} value={blankIndex}/>
+    {selectedStory.blanks[blankIndex] && <p>Name a <input value={blankValue} onChange={(event)=>manageInput(event)} onKeyDown={(event)=>manageKeyDown(event)} type="text" placeholder={selectedStory.blanks[blankIndex]} aria-label={selectedStory.blanks[blankIndex]} className={`border bg-transparent underline focus:outline-none`}/></p>}
     {selectedStory.blanks.length >= blankIndex+1 ? <button onClick={manageSubmit} className='bg-green-500 rounded-lg text-lg font-semibold px-4 py-2'>Next</button> : <button onClick={()=>setShowStory(true)} className='bg-green-500 rounded-lg text-lg font-semibold px-4 py-2'>Show My Story</button>}
       {showStory && (
-  <div className="flex flex-wrap">
+  <div className="flex flex-wrap max-w-prose">
     {selectedStory?.story.map((story, index) => (
       <p key={index}>
         {story}
