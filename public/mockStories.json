@@ -6,102 +6,102 @@
     },
     {
       "title": "The Hungry Dog",
-      "story": ["A hungry", "wandered into a", ".", "He saw a", "sitting on a", ".", "He tried to reach for it, but it was too", ".", "So, he came up with a", "plan."],
+      "story": ["A hungry", "wandered into a", " .He saw a", "sitting on a", ". He tried to reach for it, but it was too", ". So, he came up with a", "plan."],
       "blanks": ["animal", "place", "food", "surface", "adjective", "adjective"]
     },
     {
       "title": "The Silly Squirrel",
-      "story": ["A silly", "tried to gather", ".", "He put them in his", ".", "But they were too", ".", "They kept", "out.", "The squirrel was very", ", but he kept trying."],
+      "story": ["A silly", "tried to gather", ". He put them in his", ". But they were too", ". They kept", "out.", "The squirrel was very", ", but he kept trying."],
       "blanks": ["animal", "object", "body part", "adjective", "verb", "adjective"]
     },
     {
       "title": "The Lazy Lizard",
-      "story": ["A lazy", "sunned himself on a", ".", "He saw a", "flying by.", "He wanted to", "it, but it was too", ".", "So, he", "and watched it go."],
+      "story": ["A lazy", "sunned himself on a", ". He saw a", "flying by.", "He wanted to", "it, but it was too", ". So, he", "and watched it go."],
       "blanks": ["animal", "object", "object", "verb", "adjective", "verb"]
     },
     {
       "title": "The Smart Sheep",
-      "story": ["A smart", "noticed a", ".", "He", "it to the other", ".", "They were all", ".", "The sheep were very", "to the smart sheep."],
+      "story": ["A smart", "noticed a", ". He", "it to the other", ". They were all", ". The sheep were very", "to the smart sheep."],
       "blanks": ["animal", "object", "verb", "animals", "adjective", "adjective"]
     },
     {
       "title": "The Friendly Frog",
-      "story": ["A friendly", "hopped into a", ".", "He saw a", "swimming in the water.", "He wanted to", "with it, but it was too", ".", "So, he", "and watched it swim."],
+      "story": ["A friendly", "hopped into a", ". He saw a", "swimming in the water.", "He wanted to", "with it, but it was too", ". So, he", "and watched it swim."],
       "blanks": ["animal", "place", "animal", "verb", "verb", "adjective", "verb"]
     },
     {
       "title": "The Clever Crow",
-      "story": ["A clever", "saw a", ".", "He", "it on the ground.", "He wanted to", "it, but it was too", ".", "So, he", "and found another way to get it."],
+      "story": ["A clever", "saw a", ". He", "it on the ground.", "He wanted to", "it, but it was too", ". So, he", "and found another way to get it."],
       "blanks": ["animal", "object", "verb", "object", "verb", "adjective", "verb"]
     },
     {
       "title": "The Naughty Monkey",
-      "story": ["A naughty", "climbed up a", ".", "He saw a", "hanging from a branch.", "He wanted to", "it, but it was too", ".", "So, he", "and found another way to get it."],
+      "story": ["A naughty", "climbed up a", ". He saw a", "hanging from a branch. He wanted to", "it, but it was too", ". So, he", "and found another way to get it."],
       "blanks": ["animal", "object", "object", "verb", "adjective", "verb"]
     },
     {
       "title": "The Playful Panda",
-      "story": ["A playful", "rolled around in the", ".", "He saw a", "nearby.", "He wanted to", "with it, but it was too", ".", "So, he", "and found something else to play with."],
+      "story": ["A playful", "rolled around in the", ". He saw a", "nearby.", "He wanted to", "with it, but it was too", ". So, he", "and found something else to play with."],
       "blanks": ["animal", "place", "object", "verb", "adjective", "verb"]
     },
     {
       "title": "The Gentle Giraffe",
-      "story": ["A gentle", "reached up high to eat", ".", "He saw a", "sitting on a branch.", "He wanted to", "it, but it was too", ".", "So, he", "and continued eating."],
+      "story": ["A gentle", "reached up high to eat", ". He saw a", "sitting on a branch.", "He wanted to", "it, but it was too", ". So, he", "and continued eating."],
       "blanks": ["animal", "object", "object", "verb", "adjective", "verb"]
     },
     {
         "title": "The Brave Bat",
-        "story": ["A brave", "flew into a", ".", "He saw a", "hanging from the ceiling.", "He wanted to", "it, but it was too", ".", "So, he", "around and found a different spot."],
+        "story": ["A brave", "flew into a", ". He saw a", "hanging from the ceiling.", "He wanted to", "it, but it was too", ". So, he", "around and found a different spot."],
         "blanks": ["animal", "place", "object", "object", "verb", "adjective", "verb"]
     },
     {
         "title": "The Curious Chipmunk",
-        "story": ["A curious", "scurried into a", ".", "He found a", "hidden under a", ".", "He tried to", "it, but it was too", ".", "So, he", "away and searched for something else."],
+        "story": ["A curious", "scurried into a", ". He found a", "hidden under a", ". He tried to", "it, but it was too", ". So, he", "away and searched for something else."],
         "blanks": ["animal", "place", "object", "object", "surface", "verb", "adjective"]
     },
     {
         "title": "The Energetic Elephant",
-        "story": ["An energetic", "tried to climb a", ".", "He spotted a", "at the top.", "He wanted to", "it, but it was too", ".", "So, he", "and decided to find another adventure."],
+        "story": ["An energetic", "tried to climb a", ". He spotted a", "at the top.", "He wanted to", "it, but it was too", ". So, he", "and decided to find another adventure."],
         "blanks": ["animal", "object", "object", "verb", "adjective", "verb"]
     },
     {
         "title": "The Cheerful Cat",
-        "story": ["A cheerful", "played with a", "in the", ".", "He found a", "in the", ".", "He tried to", "it, but it was too", ".", "So, he", "and continued playing."],
+        "story": ["A cheerful", "played with a", "in the", ". He found a", "in the", ". He tried to", "it, but it was too", ". So, he", "and continued playing."],
         "blanks": ["animal", "object", "place", "object", "adjective", "verb", "adjective"]
     },
     {
         "title": "The Adventurous Ant",
-        "story": ["An adventurous", "explored a", ".", "He discovered a", "hidden in a", ".", "He wanted to", "it, but it was too", ".", "So, he", "and kept exploring."],
+        "story": ["An adventurous", "explored a", ". He discovered a", "hidden in a", ". He wanted to", "it, but it was too", ". So, he", "and kept exploring."],
         "blanks": ["animal", "place", "object", "surface", "verb", "adjective"]
     },
     {
         "title": "The Jolly Jaguar",
-        "story": ["A jolly", "ran through a", ".", "He spotted a", "near a", ".", "He tried to", "it, but it was too", ".", "So, he", "and found another way to enjoy himself."],
+        "story": ["A jolly", "ran through a", ". He spotted a", "near a", ". He tried to", "it, but it was too", ". So, he", "and found another way to enjoy himself."],
         "blanks": ["animal", "place", "object", "surface", "verb", "adjective"]
     },
     {
         "title": "The Cunning Cheetah",
-        "story": ["A cunning", "sneaked into a", ".", "He saw a", "sitting on a", ".", "He wanted to", "it, but it was too", ".", "So, he", "and found a clever solution."],
+        "story": ["A cunning", "sneaked into a", ". He saw a", "sitting on a", ". He wanted to", "it, but it was too", ". So, he", "and found a clever solution."],
         "blanks": ["animal", "place", "object", "surface", "verb", "adjective"]
     },
     {
         "title": "The Playful Penguin",
-        "story": ["A playful", "slid into a", ".", "He saw a", "floating in the", ".", "He wanted to", "it, but it was too", ".", "So, he", "and played around instead."],
+        "story": ["A playful", "slid into a", ". He saw a", "floating in the", ". He wanted to", "it, but it was too", ". So, he", "and played around instead."],
         "blanks": ["animal", "place", "object", "verb", "adjective", "verb"]
     },
     {
         "title": "The Wise Whale",
-        "story": ["A wise", "swam through a", ".", "He found a", "drifting by a", ".", "He wanted to", "it, but it was too", ".", "So, he", "and continued his journey."],
+        "story": ["A wise", "swam through a", ". He found a", "drifting by a", ". He wanted to", "it, but it was too", ". So, he", "and continued his journey."],
         "blanks": ["animal", "place", "object", "surface", "verb", "adjective"]
     },
     {
         "title": "The Friendly Fox",
-        "story": ["A friendly", "walked into a", ".", "He saw a", "near a", ".", "He wanted to", "it, but it was too", ".", "So, he", "and made new friends instead."],
+        "story": ["A friendly", "walked into a", ". He saw a", "near a", ". He wanted to", "it, but it was too", ". So, he", "and made new friends instead."],
         "blanks": ["animal", "place", "object", "surface", "verb", "adjective"]
     },
     {
         "title": "The Determined Dolphin",
-        "story": ["A determined", "swam into a", ".", "He saw a", "floating in the", ".", "He tried to", "it, but it was too", ".", "So, he", "and found a different way to play."],
+        "story": ["A determined", "swam into a", ". He saw a", "floating in the", ". He tried to", "it, but it was too", ". So, he", "and found a different way to play."],
         "blanks": ["animal", "place", "object", "verb", "adjective", "verb"]
     }
   ]

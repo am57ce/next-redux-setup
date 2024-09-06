@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import StorySelector from '@/components/StorySelector';
 import { useAppDispatch, useAppSelector } from '@/libs/hooks';
 import { setBlanksReducer } from '@/libs/features/story/story';
@@ -9,6 +9,7 @@ const Page = () => {
   const selectedStory = useAppSelector((state)=> state.story.story)
   fillerWords.map((value)=>console.log(value))
   const dispatch = useAppDispatch();
+
   const [blankIndex,setBlankIndex] = useState(0);
   const [blankValue,setBlankValue] = useState("");
   const [showStory,setShowStory] = useState(false);
@@ -23,6 +24,13 @@ const Page = () => {
     setBlankIndex(blankIndex+1)
 
   }
+
+  useEffect(() => {
+    setBlankIndex(0)
+    setBlankValue("")
+    setShowStory(false)
+  },[selectedStory])
+
 
   return (
     <div className='flex flex-col gap-6 my-3 items-center justify-center'>
