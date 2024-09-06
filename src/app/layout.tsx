@@ -17,10 +17,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <main className="flex antialiased min-w-screen min-h-screen overflow-x-hidden flex-col items-center justify-between p-24">
-        {children}
+        <main className="flex antialiased min-w-screen min-h-screen overflow-x-hidden flex-col items-center justify-between p-24">
+          {children}
         </main>
-        </body>
+      </body>
     </html>
   );
 }
