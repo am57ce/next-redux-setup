@@ -6,10 +6,8 @@ import { storyIdReducer } from '@/libs/features/story/story';
 
 const StorySelector = () => {
     const dispatch = useAppDispatch();
-    const [selectedStory, setSelectedStory] = useState(0)
 
     const handleSelection = (e: React.ChangeEvent<HTMLSelectElement>) => {
-        setSelectedStory(Number(e.target.value));
         dispatch(storyIdReducer(Number(e.target.value)));
     }
 

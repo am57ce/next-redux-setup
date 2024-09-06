@@ -2,10 +2,9 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import stories from "../../../../public/mockStories.json";
 
 const initialState = {
-  story: [] as string[],
+  story: stories.at(0) as { title: string; blanks: string[]; story: string[] },
   filledWords: [] as string[],
   storyId: 0,
-  completeStory: "",
 };
 
 export const story = createSlice({
@@ -16,8 +15,12 @@ export const story = createSlice({
       state.filledWords.push(action.payload);
     },
     storyIdReducer(state, action: PayloadAction<number>) {
+      state.filledWords = [];
       state.storyId = action.payload;
-      state.story.concat(stories[state.storyId].story);
+      console.log(action.payload);
+      console.log("Story id is,", state.storyId);
+      console.log("Story is,", stories[state.storyId].title);
+      state.story = stories[state.storyId];
     },
   },
 });
